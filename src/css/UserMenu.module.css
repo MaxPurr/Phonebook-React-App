@@ -1,0 +1,25 @@
+.user_menu{
+    display: flex;
+    gap:12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+}
+
+.log_out_btn {
+    font-size: 18px;
+    background: #188CE8;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    transition: all 500ms ease;
+}
+
+.log_out_btn:hover,
+.log_out_btn:focus {
+    background: #fff;
+    color: #188CE8;
+    box-shadow: inset 0 0 0 3px #188CE8;
+}
